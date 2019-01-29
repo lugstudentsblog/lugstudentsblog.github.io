@@ -1,0 +1,95 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+.need-help-mobile{
+	display: block !important;
+}
+.need-help-desktop{
+	display: none !important;
+}
+.portal{
+	display: none !important;
+}
+}
+
+@media only screen 
+and (min-width : 500px) {
+/* Styles */
+.portal{
+	display: block !important;
+}
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 767px) {
+/* Styles */
+.mobile-menu{
+	display: block !important;
+}
+.desktop-menu{
+	display: none !important;
+}
+.banner-title{
+	font-size: 25px;
+}
+.banner-desc{
+	font-size: 16px;
+}
+.banner-desc2{
+	font-size: 14px;
+}
+
+
+}
+
+@media only screen 
+and (max-width : 1100px) {
+/* Styles */
+.mobile-menu{
+	display: block !important;
+}
+.desktop-menu{
+	display: none !important;
+}
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+.mobile-menu{
+	display: none !important;
+}
+.desktop-menu{
+	display: block !important;
+}
+.need-help-mobile{
+	display: none !important;
+}
+.need-help-desktop{
+	display: block !important;
+}
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+.mobile-menu{
+	display: none !important;
+}
+.desktop-menu{
+	display: block !important;
+}
+}
